@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-left: 1%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.nav-item :hover {
+    background: black;
+}
+
+a {
+    color: white;
+}
+
+header, footer {
+    background: #364385;
+}
+
+header {
+    padding: 1%;
+    width: 100%;
+    height: fit-content;
+    
+}
+
+header nav {
+    width: inherit;
+    height: inherit;
+}
