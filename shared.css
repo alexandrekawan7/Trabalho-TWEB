@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar, .footer {
+    font-family: ’Courier New’, Cou-
+rier, monospace;
+    background: #364385;
+    padding: 1vh 1vw 1vh 1vw;
+}
+
+.nav-bar {
+    list-style-type: none;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding-left: 1vw;
+}
+
+.nav-bar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    background: gray;
+}
+
+.content {
+    margin-top: 5vh;
+    font-family: ’Segoe UI’, Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: fit-content;
+}
+
+.content p {
+    padding: 0vh 5vw 0vh 5vw;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 0vw;
+    bottom: 0vh;
+    width: 100vw;
+}

@@ -2,41 +2,35 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TWEB - Home</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>HTML5</title>
+    
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="tech.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li class="nav-item"><a href="">Home</a></li>
-                <li class="nav-item"><a href="">HTML</a></li>
-                <li class="nav-item"><a href="">CSS</a></li>
-                <li class="nav-item"><a href="">JavaScript</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="htm.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="js.html">JAVASCRIPT</a></li>
+        </ul>
+    </nav>
 
     <main>
-        <article>
-            <h1>HTML</h1>
+        <section class="content">
+            <h1>HTML5</h1>
+
             <p>
                 HTML5 é a quinta e última versão do HTML, sigla de Hypertext Markup Language, uma das primeiras e principais linguagens de marcação da web.O HTML serve, basicamente, para o desenvolvimento de páginas que contenham conteúdos simples, como textos, imagens, áudio, vídeos e etc. Desenvolvido com o objetivo de facilitar a vida daqueles que manipulavam o HTML, ou seja, os(as) desenvolvedores(as) web, o HTML5 apresenta diferenças significativas com relação às suas versões anteriores. A primeira delas é o suporte a áudio e vídeo de alto nível, um atributo que não fazia parte de nenhuma das quatro versões anteriores desta linguagem. Outras diferenças são o suporte a gráficos vetoriais, que até então só poderiam ser usados em conjunto com tecnologias como o Flash, por exemplo. O HTML5 também suporta novos tipos de controles utilizados em formulários, como por exemplo data e hora, e-mail, números, url, telefone e etc. A introdução de alguns elementos também tem grande importância nessas mudanças. Alguns elementos novos são: sumário, tempo, áudio, comando, dados, datalist, entre outros.
             </p>
-        </article>
 
-        <section id="images">
-
-                <div><a href=""><img class="main-image" src="html.png"></a></div>
-                <div><a href=""><img class="main-image" src="css.png"></a></div>
-                <div><a href=""><img class="main-image" src="javascript.png"></a></div>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/mzPxo7Y6JyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
     </main>
 
-    <footer>
-        <p>Feito por Alexandre Kawan &copy;</p>
+    <footer class="footer">
+        <p>Made by Xandin Pression &copy;</p>
     </footer>
 </body>
 </html>
